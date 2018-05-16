@@ -1,0 +1,264 @@
+body
+{
+	background-image: url("img/classy_fabric.png");
+	font-size:20px;
+	font-family: 'Vollkorn', serif;
+}
+
+header
+{
+	width:90%;
+	text-align:center;
+}
+
+.logo
+{
+	margin-top:50px;
+	margin-left:50px;
+	font-size:80px;
+	font-family: 'Lobster', cursive;
+	display:inline-block;
+	color:white;
+	text-shadow:5px 5px  5px #666;
+	letter-spacing:3px;
+}
+
+.logo a:hover
+{
+	text-shadow: 5px 5px 5px  #777;
+}
+
+.space
+{
+	width:45%;
+	display:inline-block;
+}
+
+.logowanie 
+{
+	display:inline-block;
+	position:absolute;
+	margin-right:20px;
+	margin-top:10px;
+	text-shadow:2px 2px 1px #777;
+	font-size:20px;
+}
+
+a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.logowanie a:hover
+{
+	cursor:pointer;
+	color:#f22;
+}
+
+.navigation
+{
+	width:90%;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+
+.navigation > il
+{
+	padding:40px;
+	text-shadow:2px 2px  2px #777;
+}
+
+.navigation>il a
+{
+	color:#eee;
+}
+
+.navigation>il a:hover
+{
+	color:#ff2222;
+	text-shadow:2px 2px  2px #ccc;
+}
+
+.container
+{
+	width:70%;
+	margin-left:auto;
+	margin-top:30px;
+	margin-right:auto;
+	min-height:200px;
+	background-image: url("img/brickwall.png");
+	padding:20px;
+	border-radius: 20px;
+	-webkit-box-shadow: inset 0px 0px 150px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 150px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 150px -10px rgba(0,0,0,0.75);
+}
+
+.foot
+{
+	width:70%;
+	margin-top:10px;
+	background-color:#111;
+	opacity:0.5;
+	margin-right:auto;
+	margin-left:auto;
+	color :#ddd;
+	border-radius: 15px;
+	padding:10px;
+	text-align:center;
+}
+
+.menu
+{
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	padding: 20px 40px 20px 40px;
+}
+
+.menu a
+{
+	font-size:30px;
+	color:black;
+}
+
+.menu a:hover
+{
+	color:#777;
+}
+
+.picture
+{
+	width:100%;
+	transition: all .3s ease-in-out;
+}
+
+.picture:hover
+{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.pizzaContainer
+{
+	background-image: url("img/pizzap.jpg");
+	background-size:100% 100%;
+	width:90%;
+	margin-left:auto;
+	margin-top:10px;
+	margin-right:auto;
+	min-height:100px;
+	border-radius:20px;
+	padding:17px;
+}
+
+.makaronContainer
+{
+	background-image: url("img/makaronp.jpg");
+	background-size:100% 100%;
+	width:90%;
+	margin-left:auto;
+	margin-top:30px;
+	margin-right:auto;
+	min-height:100px;
+	border-radius:20px;
+	padding:20px;
+}
+.salatkiContainer
+{
+	background-image: url("img/salatkap.jpg");
+	background-size:100% 100%;
+	width:90%;
+	margin-left:auto;
+	margin-top:30px;
+	margin-right:auto;
+	min-height:100px;
+	border-radius:20px;
+	padding:20px;
+}
+.sosyContainer
+{
+	background-image: url("img/sosyp.jpg");
+	background-size:100% 100%;
+	width:90%;
+	margin-left:auto;
+	margin-top:30px;
+	margin-right:auto;
+	min-height:100px;
+	border-radius:20px;
+	padding:20px;
+}
+
+h4
+{
+	word-spacing:25px;
+	float:right;
+	margin:0;
+}
+
+h5
+{
+	word-spacing:40px;
+	float:right;
+	margin:0;
+}
+h3
+{
+	word-spacing:40px;
+	float:right;
+	margin:0;
+}
+
+.cena
+{
+	background: rgba(0,0,0,0);
+	border:none;
+	padding:15px;
+	font-size:30px;
+	font-weight:500;
+	font-family: 'Vollkorn', serif;
+	float:right;
+	outline: none;
+}
+
+.cena1
+{
+	background: rgba(0,0,0,0);
+	border:none;
+	padding:30px;
+	font-size:30px;
+	font-weight:500;
+	font-family: 'Vollkorn', serif;
+	float:right;
+	outline: none;
+}
+
+.cena1:hover
+{
+	cursor:pointer;
+	text-shadow:0px 0px 10px #000;
+	color:red;
+}
+
+.cena:hover
+{
+	cursor:pointer;
+	text-shadow:0px 0px 10px #000;
+	color:red;
+}
+
+.space1
+{
+	display:inline-block;
+}
+
+.tytul
+{
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:bold;
+}
